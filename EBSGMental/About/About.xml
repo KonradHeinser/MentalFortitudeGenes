@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>EBSG - Mental Fortitude Genes</name>
+  <author>alite</author>
+  <packageId>EBSG.Mental</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+Expanded Biotech Style Genes(EBSG) is the step beyond [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes[/url]. Where that series sought to expand ranges that already exist, this series seeks to add ranges that should exist. You get gene ranges that alter sleep fall rate, but why not a range for changing the rate it recovers? If you can have fire resistance genes, why not have genes to resist other types of damage like frostbite and acid?
+
+This mod adds 12 new genes that impact how "willful" the pawn is. Each level offsets the mental break by 5%. If ideology is installed, then the Stubborn genes also multiplies Certainty Loss by 10% per level, and Slave Suppression Fall Rate by 25% per level, with the Nervous genes doing the reverse. For example, Very Stubborn reduces mental break threshold by 15%, multiplies Certainty loss by 70%, and multiplies Slave Suppression Fall Rate by 175%, while Very Docile increases mental break threshold by 15%, multiplies Certainty Loss by 175%, and multiplies Slave Suppression Fall Rate by 70%.
+
+Some of the genes would put mental break threshold beyond its caps, which means that those genes will put it at the cap and reduce the effects of anything that attempts to move it away from the limit.
+
+This mod will eventually be put into Expanded Biotech Style Genes - All in One. If that mod exists and you still see this message, please let me know I forgot to add the link here.
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://github.com/KonradHeinser/MentalFortitudeGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
+<!--Original textures for gene icons are available on https://game-icons.net-->
