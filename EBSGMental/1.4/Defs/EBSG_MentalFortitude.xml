@@ -233,7 +233,7 @@
         </statOffsets>
         <statFactors>
             <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.5</SlaveSuppressionFallRate>
-            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">12.25</CertaintyLossFactor>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">2.25</CertaintyLossFactor>
         </statFactors>
         <symbolPack>
             <prefixSymbols>
