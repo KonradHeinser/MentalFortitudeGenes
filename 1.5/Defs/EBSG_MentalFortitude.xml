@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="true" Name="EBSG_MentalFortitude">
+        <displayCategory>Mood</displayCategory>
+        <exclusionTags>
+            <li>EBSG_MentalFortitude</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_HyperStubborn</defName>
+        <label>hyper stubborn</label>
+        <description>Carriers of this gene are unbelievably stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyStubborn</iconPath>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.30</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">2.50</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.4</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_SuperStubborn</defName>
+        <label>super stubborn</label>
+        <description>Carriers of this gene are super stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyStubborn</iconPath>
+        <displayOrderInCategory>100.1</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.25</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">2.25</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_ExtremeStubborn</defName>
+        <label>extremely stubborn</label>
+        <description>Carriers of this gene are extremely stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyStubborn</iconPath>
+        <displayOrderInCategory>100.2</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">2.00</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.6</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_VeryStubborn</defName>
+        <label>very stubborn</label>
+        <description>Carriers of this gene are very stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_Stubborn</iconPath>
+        <displayOrderInCategory>100.3</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">1.75</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.7</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_Stubborn</defName>
+        <label>stubborn</label>
+        <description>Carriers of this gene are stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_Stubborn</iconPath>
+        <displayOrderInCategory>100.4</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">1.50</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.8</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_SomewhatStubborn</defName>
+        <label>somewhat stubborn</label>
+        <description>Carriers of this gene are somewhat stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
+        <iconPath>EBSG/Gene_Stubborn</iconPath>
+        <displayOrderInCategory>100.5</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">1.25</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.9</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stub</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_SomewhatNervous</defName>
+        <label>somewhat nervous</label>
+        <description>Carriers of this gene are a little nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_Nervous</iconPath>
+        <displayOrderInCategory>100.6</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.9</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">1.25</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_Nervous</defName>
+        <label>nervous</label>
+        <description>Carriers of this gene are nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_Nervous</iconPath>
+        <displayOrderInCategory>100.7</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.10</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.8</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">1.50</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_VeryNervous</defName>
+        <label>very nervous</label>
+        <description>Carriers of this gene are very nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_Nervous</iconPath>
+        <displayOrderInCategory>100.8</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.15</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.7</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">1.75</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_ExtremelyNervous</defName>
+        <label>extremely nervous</label>
+        <description>Carriers of this gene are extremely nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyNervous</iconPath>
+        <displayOrderInCategory>100.9</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.20</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.6</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">2.00</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_SuperNervous</defName>
+        <label>super nervous</label>
+        <description>Carriers of this gene are super nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyNervous</iconPath>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatMet>5</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.25</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.5</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">2.25</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MentalFortitude">
+        <defName>EBSG_HyperNervous</defName>
+        <label>hyper nervous</label>
+        <description>Carriers of this gene are unbelievably nervous all the time. They are more likely to try to go with the flow to avoid conflict, and more likely to break under pressure.</description>
+        <iconPath>EBSG/Gene_ExtremelyNervous</iconPath>
+        <displayOrderInCategory>101.1</displayOrderInCategory>
+        <biostatMet>6</biostatMet>
+        <statOffsets>
+            <MentalBreakThreshold>0.30</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.4</SlaveSuppressionFallRate>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">2.50</CertaintyLossFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>doci</symbol></li>
+                <li><symbol>nerve</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
