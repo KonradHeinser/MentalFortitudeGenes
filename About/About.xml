@@ -7,6 +7,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   
   <modDependencies>
@@ -28,8 +29,6 @@ Expanded Biotech Style Genes(EBSG) is the step beyond [url=https://steamcommunit
 This mod adds 12 new genes that impact how "willful" the pawn is. Each level offsets the mental break by 5%. If ideology is installed, then the Stubborn genes also multiplies Certainty Loss by 10% per level, and Slave Suppression Fall Rate by 25% per level, with the Nervous genes doing the reverse. For example, Very Stubborn reduces mental break threshold by 15%, multiplies Certainty loss by 70%, and multiplies Slave Suppression Fall Rate by 175%, while Very Docile increases mental break threshold by 15%, multiplies Certainty Loss by 175%, and multiplies Slave Suppression Fall Rate by 70%.
 
 Some of the genes would put mental break threshold beyond its caps, which means that those genes will put it at the cap and reduce the effects of anything that attempts to move it away from the limit.
-
-This mod will eventually be put into Expanded Biotech Style Genes - All in One. If that mod exists and you still see this message, please let me know I forgot to add the link here.
 
 [url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
 
